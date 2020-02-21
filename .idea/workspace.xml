@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8253e2b6-d54c-4ae5-9bef-e4024a29aa49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/niuketest/niuke/huawei/Main05.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/niuketest/niuke/huawei/quickstart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/niuke/huawei/Main05.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/niuke/huawei/quickstart.java" beforeDir="false" />
-    </list>
+    <list default="true" id="8253e2b6-d54c-4ae5-9bef-e4024a29aa49" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
