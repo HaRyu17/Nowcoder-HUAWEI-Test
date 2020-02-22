@@ -5,5 +5,5 @@ package niuke.huawei;
  * @date 2020/2/21 - 21:45
  */
 public class Test008 {
-    123
+
 }
