@@ -23,9 +23,7 @@ public class Test045 {
                 }else{
                     b+=2;
                 }
-                if(b<num){
-                    continue;
-                }else if(b == num){
+                if(b == num){
                     cut += str.substring(0,num);
                     break;
                 }else if(b>num){

@@ -31,8 +31,9 @@ public class Test019 {
         int count = 0;
         for(String key:fm.keySet()){
             count++;
-            if(count >(fm.keySet().size()-8))
+            if(count >(fm.keySet().size()-8)) {
                 System.out.println(key + " " + fm.get(key));
+            }
         }
 
     }
