@@ -7,19 +7,19 @@ package niuke.huawei;
 import java.util.Scanner;
 
 public class Test051_other_2 {
-   /* * 设Ai为字符串A(a1a2a3 … am)的前i个字符（即为a1,a2,a3 … ai）
-    * 设Bj为字符串B(b1b2b3 … bn)的前j个字符（即为b1,b2,b3 … bj）
-    *
-    * 设 L(i,j)为使两个字符串和Ai和Bj相等的最小操作次数。
-    * 当ai==bj时 显然 L(i,j) = L(i-1,j-1)
-    * 当ai!=bj时
-    *
-    *  若将它们修改为相等，则对两个字符串至少还要操作L(i-1,j-1)次
-    *  若删除ai或在bj后添加ai，则对两个字符串至少还要操作L(i-1,j)次
-    *  若删除bj或在ai后添加bj，则对两个字符串至少还要操作L(i,j-1)次
-    *  此时L(i,j) = min( L(i-1,j-1), L(i-1,j), L(i,j-1) ) + 1
-    *
-     * 显然，L(i,0)=i，L(0,j)=j, 再利用上述的递推公式，可以直接计算出L(i,j)值。
+/**
+设Ai为字符串A(a1a2a3 … am)的前i个字符（即为a1,a2,a3 … ai）
+设Bj为字符串B(b1b2b3 … bn)的前j个字符（即为b1,b2,b3 … bj）
+
+设 L(i,j)为使两个字符串和Ai和Bj相等的最小操作次数。
+当ai==bj时 显然 L(i,j) = L(i-1,j-1)
+当ai!=bj时
+
+若将它们修改为相等，则对两个字符串至少还要操作L(i-1,j-1)次
+若删除ai或在bj后添加ai，则对两个字符串至少还要操作L(i-1,j)次
+若删除bj或在ai后添加bj，则对两个字符串至少还要操作L(i,j-1)次
+此时L(i,j) = min( L(i-1,j-1), L(i-1,j), L(i,j-1) ) + 1
+显然，L(i,0)=i，L(0,j)=j, 再利用上述的递推公式，可以直接计算出L(i,j)值。
 */
     public static void main(String[] args) {
         // TODO Auto-generated method stub
