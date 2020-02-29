@@ -32,5 +32,6 @@ public class Test052 {
                 System.out.println(4);
             }
         }
+        sc.close();
     }
 }
