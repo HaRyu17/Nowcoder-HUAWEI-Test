@@ -14,11 +14,13 @@ public class Test061 {
             String n = Integer.toBinaryString(num);
             String[] nn = n.split("");
             int count=0;
-            for(int i = 0;i<nn.length;i++){
+            int i = 0;
+            while (i<nn.length) {
                 int x = Integer.parseInt(nn[i]);
                 if(x == 1){
                     count++;
                 }
+                i++;
             }
             System.out.println(count);
         }
